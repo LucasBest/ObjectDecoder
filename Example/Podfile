@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ObjectDecoder_Example' do
+  pod 'ObjectDecoder', :path => '../'
+
+  target 'ObjectDecoder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

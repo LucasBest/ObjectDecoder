@@ -1,0 +1,6 @@
+framework module ObjectDecoder {
+  umbrella header "ObjectDecoder-umbrella.h"
+
+  export *
+  module * { export * }
+}
