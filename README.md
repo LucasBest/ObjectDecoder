@@ -14,7 +14,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-ObjectDecoder is built with Swift 4 and targets iOS 8 and later.
+ObjectDecoder is built with Swift 4.1 and targets iOS 8 and later.
 
 ## Installation
 
@@ -27,7 +27,7 @@ pod 'ObjectDecoder'
 
 ## Author
 
-lucas.best.5@gmail.com, lucas.best.5@gmail.com
+Lucas Best, lucas.best.5@gmail.com
 
 ## License
 

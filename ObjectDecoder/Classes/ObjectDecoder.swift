@@ -175,7 +175,7 @@ fileprivate struct _ObjectKeyedDecodingContainer<K : CodingKey> : KeyedDecodingC
     // MARK: - KeyedDecodingContainerProtocol
     
     public var allKeys: [Key] {
-        return self.container.keys.flatMap { Key(stringValue: $0) }
+        return self.container.keys.compactMap { Key(stringValue: $0) }
     }
     
     public func contains(_ key: Key) -> Bool {
