@@ -1,16 +1,23 @@
 PODS:
-  - ObjectDecoder (0.1.0)
+  - ObjectDecoder (0.1.1)
+  - SwiftLint (0.29.3)
 
 DEPENDENCIES:
   - ObjectDecoder (from `../`)
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftLint
 
 EXTERNAL SOURCES:
   ObjectDecoder:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  ObjectDecoder: 3c8c84efe2c3fb9b46f8cf40fe8335323890ca5c
+  ObjectDecoder: 08edd19096eefe2de0ef4ea89c44316444907973
+  SwiftLint: bfa7ca7b4d170cfaf0d236ca3ffd969e88a2f002
 
-PODFILE CHECKSUM: df1b5f18ba2d72ef0da87e15bff4b78129650eac
+PODFILE CHECKSUM: 0721bfff6f901e703c99546f2e2709f8408d1244
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

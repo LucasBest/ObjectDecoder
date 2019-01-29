@@ -1,4 +1,7 @@
+platform:ios, '8.0'
 use_frameworks!
+
+pod 'SwiftLint'
 
 target 'ObjectDecoder_Example' do
   pod 'ObjectDecoder', :path => '../'
