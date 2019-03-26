@@ -16,17 +16,5 @@ disabled_rules:
   - cyclomatic_complexity
 included:
   - ../ObjectDecoder
-excluded:
-  - Generated
-  - Carthage
-  - Pods
-identifier_name:
-  excluded:
-    - id
-    - ok
-    - vc
 trailing_comma:
   mandatory_comma: true
-type_name:
-  excluded:
-    - ID

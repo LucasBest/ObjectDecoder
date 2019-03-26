@@ -1141,6 +1141,8 @@ extension _ObjectDecoder {
             let date = try closure(self)
             self.storage.popContainer()
             return date
+        @unknown default:
+            throw DecodingError.dataCorrupted(DecodingError.Context(codingPath: self.codingPath, debugDescription: "Currently unsupported dateDecodingStrategy."))
         }
     }
 
@@ -1168,6 +1170,8 @@ extension _ObjectDecoder {
             let data = try closure(self)
             self.storage.popContainer()
             return data
+        @unknown default:
+            throw DecodingError.dataCorrupted(DecodingError.Context(codingPath: self.codingPath, debugDescription: "Currently unsupported dataDecodingStrategy."))
         }
     }
 
