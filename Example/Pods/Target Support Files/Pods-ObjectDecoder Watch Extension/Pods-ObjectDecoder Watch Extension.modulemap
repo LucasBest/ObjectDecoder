@@ -1,0 +1,6 @@
+framework module Pods_ObjectDecoder_Watch_Extension {
+  umbrella header "Pods-ObjectDecoder Watch Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

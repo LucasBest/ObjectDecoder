@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ObjectDecoder'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A Swift Class that decodes basic structures such as Dictionaries and Arrays.'
 
   s.description      = <<-DESC
@@ -15,6 +15,7 @@ ObjectDecoder is a Swift Class that allows for decoding common Swift types such 
 
   s.swift_version = '5.0'
   s.ios.deployment_target = '10.0'
+  s.watchos.deployment_target = '2.0'
 
   s.source_files = 'ObjectDecoder/Classes/**/*'
 end

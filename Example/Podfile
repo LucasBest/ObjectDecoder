@@ -1,12 +1,17 @@
-platform:ios, '10.0'
 use_frameworks!
 
 pod 'SwiftLint'
 
 target 'ObjectDecoder_Example' do
+  platform:ios, '10.0'
   pod 'ObjectDecoder', :path => '../'
 
   target 'ObjectDecoder_Tests' do
     inherit! :search_paths
   end
+end
+
+target 'ObjectDecoder Watch Extension' do
+  platform:watchos, '2.0'
+  pod 'ObjectDecoder', :path => '../'
 end
